@@ -1,0 +1,87 @@
+{
+  "canonical_language": "zh",
+  "translations": {
+    "en": {
+      "ai-product-playbook.md": {
+        "source": "ai-product-playbook.md",
+        "source_sha256": "906ec39a10c3f3539225fa077545415b51673d5d5883a662422b213c2188d1d9",
+        "translated_at": "2026-10-21"
+      },
+      "decision-gate.md": {
+        "source": "decision-gate.md",
+        "source_sha256": "6ae7f0cd77798df6b9ce281c11508de436128bc4df88a5f2d5d3c61da6e95a7c",
+        "translated_at": "2026-10-21"
+      },
+      "discovery-question-bank.md": {
+        "source": "discovery-question-bank.md",
+        "source_sha256": "f5dfd9555a5303ea284a63aa90990675c122ba2e040ac2ef39ed3eb7e8e44711",
+        "translated_at": "2026-10-21"
+      },
+      "evidence-ledger.md": {
+        "source": "evidence-ledger.md",
+        "source_sha256": "582586be7a96c6e213b81db8c7d20090786eb6bf61dbc7f7b8699a1c124f8dc6",
+        "translated_at": "2026-10-21"
+      },
+      "examples.md": {
+        "source": "examples.md",
+        "source_sha256": "82aeba478db9f195dd247f08472ae3ca069cbaae73b3fb5900f1b0e2277c5e64",
+        "translated_at": "2026-10-21"
+      },
+      "interview-engine.md": {
+        "source": "interview-engine.md",
+        "source_sha256": "d31de0cab93ec9c107705c0da3a1e8610019dfb03e149b5c56aed69138c0774a",
+        "translated_at": "2026-10-21"
+      },
+      "market-context-cn.md": {
+        "source": "market-context-cn.md",
+        "source_sha256": "4d86701d735e3337de616b7a80dfca9a2c527b44495f98ce60b6f0147ea45250",
+        "translated_at": "2026-10-21"
+      },
+      "output-contract.md": {
+        "source": "output-contract.md",
+        "source_sha256": "1a3f801e9c9fa0f29302c2754a29efe55ff7acb9be3130a357c8b2a3f88ec1b4",
+        "translated_at": "2026-10-21"
+      },
+      "outputs/build-spec.md": {
+        "source": "outputs/build-spec.md",
+        "source_sha256": "2b101ec3d0813868cc6b988d145dfe0aa4ad382234b8228dc2a96a556d401193",
+        "translated_at": "2026-10-21"
+      },
+      "outputs/decision-memo.md": {
+        "source": "outputs/decision-memo.md",
+        "source_sha256": "34e7d6c9eb6a4a32e6460b0a1a3aee548d30a00efd9098ca60cc5d5cc95427b2",
+        "translated_at": "2026-10-21"
+      },
+      "outputs/full-prd.md": {
+        "source": "outputs/full-prd.md",
+        "source_sha256": "9b45d6a74ed6718226c60ad24b1696b2ecd9bd92f58b46b35baed1286cc20552",
+        "translated_at": "2026-10-21"
+      },
+      "outputs/lean-prd.md": {
+        "source": "outputs/lean-prd.md",
+        "source_sha256": "8f1f3521c2060f5ede85f327b10be65ef3c1c206908f886d20dc09e2749502b4",
+        "translated_at": "2026-10-21"
+      },
+      "product-sense-playbook.md": {
+        "source": "product-sense-playbook.md",
+        "source_sha256": "d79202d15460a8715a87a0227d05b417b0c67ef827eed04c5f1ee59b37d1b71f",
+        "translated_at": "2026-10-21"
+      },
+      "research-playbook.md": {
+        "source": "research-playbook.md",
+        "source_sha256": "c2347edcf4f50edf2a284b888d0eaeb2bcccb3533274cf3a4f2a7fda7296d40d",
+        "translated_at": "2026-10-21"
+      },
+      "tech-stack-playbook.md": {
+        "source": "tech-stack-playbook.md",
+        "source_sha256": "b27b962e23cca59857e94e37122782fbe70c2d219b2300dcbab0f1d7e463808a",
+        "translated_at": "2026-10-21"
+      },
+      "validation-playbook.md": {
+        "source": "validation-playbook.md",
+        "source_sha256": "746fb8b6a8ec30ccaadfd58a023c2835f01b328c4a568c0a4304937b91a0de60",
+        "translated_at": "2026-10-21"
+      }
+    }
+  }
+}

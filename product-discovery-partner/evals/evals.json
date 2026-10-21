@@ -1,0 +1,46 @@
+{
+  "skill_name": "product-discovery-partner",
+  "note": "Legacy behavior suite. It checks interview behavior, not output quality. A blind A/B quality evaluation is deferred.",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "我有个想法，想做一个 AI 工具，帮团队自动整理客户反馈，最后能生成产品需求。你来当产品经理问我问题。",
+      "expected_output": "助手应确认方向并推荐深度档位，主动进入产品访谈，不直接写 PRD；应追问第一批用户、反馈来源、现状工作流和需求证据，并区分兴趣与行为证据。"
+    },
+    {
+      "id": 2,
+      "prompt": "帮我做一个给中小企业用的内部知识库产品 PRD，我想直接开始。",
+      "expected_output": "助手应指出信息不足，不直接写完整 PRD；应推荐快速或标准档，先追问目标用户、知识来源、权限、搜索/RAG、技术栈和成功指标，并说明可能在决策门得到 PAUSE。"
+    },
+    {
+      "id": 3,
+      "prompt": "我想做一个 AI Agent，可以帮跨境电商卖家自动处理客服、改 Listing、看广告数据、给建议。应该怎么做？",
+      "expected_output": "助手应识别 AI Agent 的权限和风险，主动追问第一版场景、自动化边界、人工确认、集成平台、模型质量和技术栈；应明确建议先做建议/草稿而不是全自动执行。"
+    },
+    {
+      "id": 4,
+      "prompt": "我只有一个模糊想法：做个帮助个人成长的 app，但不知道具体是什么。你来挖。",
+      "expected_output": "助手应允许想法不成熟，给出 2-3 个可能方向并推荐一个，确认深度档位，然后继续问真实触发场景或目标用户，而不是一次性列出长问卷。"
+    },
+    {
+      "id": 5,
+      "prompt": "我想做一个创业项目，很多朋友都说这个想法不错，也有几十个人愿意等上线。帮我继续梳理。",
+      "expected_output": "助手应指出兴趣不等于需求，把等候名单标为弱证据，追问真实行为、付费意愿、现状替代和最窄切口；应给出验证包或 PAUSE 建议，而不是把等候名单当成强需求证据。"
+    },
+    {
+      "id": 6,
+      "prompt": "I have a rough AI product idea: a tool that helps founders decide what to build next. I am not sure who the first users are yet. Can you help me explore it?",
+      "expected_output": "The assistant should respond in English, propose a depth mode, lead a product discovery interview, acknowledge that the idea is early, offer 2-3 plausible directions if helpful, recommend a path, and ask one high-leverage next question instead of writing a PRD."
+    },
+    {
+      "id": 7,
+      "prompt": "Please write a PRD for a mobile app that lets people talk to AI versions of famous historical figures and public personalities.",
+      "expected_output": "The assistant should respond in English, avoid prematurely writing the full PRD, flag missing discovery information, ask about the core use case, safety and identity boundaries, data sources, voice/design choices, and the MVP technical stack; it may offer a decision memo instead."
+    },
+    {
+      "id": 8,
+      "prompt": "I want to build a SaaS product for customer success teams that predicts churn and tells them what action to take. We can use AI. What should the product be?",
+      "expected_output": "The assistant should respond in English, distinguish a broad AI idea from a specific workflow, probe demand evidence and current workaround, ask about data availability and model reliability, and move toward a narrow MVP or a decision gate rather than a generic plan."
+    }
+  ]
+}
